@@ -1,3 +1,5 @@
+from driver import Driver
+from user import User
 from uberX import UberX
 from car import Car
 from account import Account
@@ -10,3 +12,8 @@ if __name__ == "__main__":
     print(vars(car2.driver))
     uberXLaurita = UberX("LKS054",Account("Nicolle","564351"),"Audi", "2054")
     print(vars(uberXLaurita.driver))
+
+    condu = Driver("Teodoro", "646845")
+    usuario = User("Sergio", "98745221")
+    print(vars(condu))
+    print(vars(usuario))
